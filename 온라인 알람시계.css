@@ -1,0 +1,56 @@
+.col-sm-4{
+  font-size: 3em;
+}
+.affix{
+  width: 100%;
+  top:0;
+  z-index: 9999
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: sans-serif;
+  display: inline;
+}
+
+#clock {
+  font-size: 3em;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#alarm-time {
+  width: 75px;
+  height: 25px;
+  font-size: 1em;
+  text-align: center;
+}
+
+#watch {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #333;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+#warning {
+  background-color: #ffc107;
+  color: #333;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+  display: none;
+}
+
+#warning button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
